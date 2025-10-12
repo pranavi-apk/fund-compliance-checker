@@ -1,0 +1,36 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+build/
+dist/
+
+# Generated files
+knowledge_base_cache.json
+*_report.txt
+
+# Documentation files (temporary)
+BUTTON_FIX.md
+IMPORT_ERRORS_FIXED.md
+ORGANIZATION_COMPLETE.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary PDF files
+data/pdfs/temp_*

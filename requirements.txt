@@ -1,0 +1,9 @@
+pdfplumber
+sentence-transformers
+numpy
+torch
+ollama
+tqdm
+colorama
+streamlit
+plotly

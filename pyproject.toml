@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "compliance-checker"
+version = "1.0.0"
+description = "Investment Fund Compliance Checker"
+authors = [{name = "Pranavi Kuntrapakam"}]
+dependencies = [
+    "pdfplumber",
+    "sentence-transformers", 
+    "numpy",
+    "torch",
+    "ollama",
+    "tqdm",
+    "colorama",
+    "streamlit",
+    "plotly"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
