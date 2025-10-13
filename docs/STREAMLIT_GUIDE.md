@@ -311,5 +311,5 @@ If you encounter issues:
 
 ---
 
-**Built for Klares.io Application**  
+**Built for Klares.io as a Demo Application**  
 **Powered by RAG + LLM + Streamlit**

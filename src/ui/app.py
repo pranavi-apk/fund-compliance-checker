@@ -202,7 +202,7 @@ with st.sidebar:
         st.success("✅ Knowledge base built")
     
     st.markdown("---")
-    st.caption("Built for Klares.io • Hong Kong Regulatory Standards")
+    st.caption("Demo Built for Klares.io • Hong Kong Regulatory Standards")
 
 # Main Content
 st.title("📋 Fund Compliance Checker")
