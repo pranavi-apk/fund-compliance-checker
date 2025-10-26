@@ -13,12 +13,14 @@ if [ ! -f "requirements.txt" ]; then
 fi
 
 # Activate virtual environment
-if [ ! -d "venv" ]; then
-    echo "❌ Virtual environment not found. Please run setup_venv.sh first"
+if [ -f "venv/bin/activate" ]; then
+    source venv/bin/activate
+    echo "✓ Virtual environment activated"
+else
+    echo "⚠️  Virtual environment not found!"
+    echo "Please create it with: python3 -m venv venv"
     exit 1
 fi
-
-source venv/bin/activate
 
 # Check if Ollama is running
 if ! ollama list &> /dev/null; then
