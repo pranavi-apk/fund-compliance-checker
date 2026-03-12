@@ -4,7 +4,7 @@
 
 A RAG-based system for scanning investment fund prospectuses against Hong Kong regulatory requirements (SFC Fund Manager Code of Conduct and MPF Code on Investment Funds).
 
-**Built for**: Klares.io Application Demonstration  
+
 **Author**: Pranavi Kuntrapakam
 
 ---
